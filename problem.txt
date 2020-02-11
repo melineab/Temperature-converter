@@ -1,0 +1,57 @@
+Temperature converter
+
+
+Implement a temperature converter application with following specifications:
+
+* converter must support conversion from/to Celsius, Kelvin and Fahrenheit,
+* 
+must check for invalid temperature formats,
+* 
+must support temperature values in floating point format,
+* 
+input format: 36.6 C,
+* 
+output example: Conversion result: 36.6 C = 97.880 F
+
+
+
+Hints
+
+
+Input and output sample:
+
+>>> python3 termoconverter.py
+
+Supported temperature formats: 36.6 C | 97.88 F | 309.75 K
+
+Temperature: 36.6 F
+
+Convert to (C(elsius) | K(elvin) | F(ahrenheit)): F
+
+Conversion result: 36.6 F = 36.600 F
+
+
+
+Error sample:
+
+>>> python3 termoconverter.py
+
+Supported temperature formats: 36.6 C | 97.88 F | 309.75 K
+
+Temperature: 36.6 G
+
+Unsupported temperature format. Please use one of the followings: C(elsius) | K(elvin) | F(ahrenheit)
+
+Temperature: 36.6 F
+
+Convert to (C(elsius) | K(elvin) | F(ahrenheit)): l
+
+Unsupported conversion format. Please use one of the followings: C(elsius) | K(elvin) | F(ahrenheit)
+
+Convert to (C(elsius) | K(elvin) | F(ahrenheit)): L
+
+Unsupported conversion format. Please use one of the followings: C(elsius) | K(elvin) | F(ahrenheit)
+
+Convert to (C(elsius) | K(elvin) | F(ahrenheit)): K
+
+Conversion result: 36.6 F = 275.706 K
